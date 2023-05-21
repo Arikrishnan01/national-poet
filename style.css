@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.headerTitle{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+}
+.headerHeading{
+    margin-left: 40%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.headerHeadingTitle{
+    font-size: 28px;
+    font-weight: 900;
+}
+.headerHeadingh3Title{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.authorTitleList{
+    display: flex;
+}
+.authorContainer1{
+    width: 94%;
+    height: 700px;
+    margin: 30px;
+    background-color: white;
+    color: black;
+    margin-top: 100px;
+}
+.authorTitle{
+    margin: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.authorSummary{
+    margin: 20px;
+    width: 500px;
+    text-align: justify;
+}
+.authorPoster{
+    margin-left: 12%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.autherImg{
+    width: 450px;
+    height: 450px;
+}
+.authorButtons{
+    margin-top: 40px;
+    margin-left: 40%;
+}
+.authorbtn1{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 35px;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.authorbtn2{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.authorbtn3{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 35px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;  
+}
+.auhtor1Tile{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+  .auhtorContainer2{
+    width: 94%;
+    height: 800px;
+    margin: 30px;
+    background-color: white;
+    color: black;
+    margin-top: 100px;
+    padding: 40px 0px 30px 0px;
+  }
+  .start{
+    margin-right: 5px;
+  }
+.authorSummaryFlex{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.authorFlex{
+    width: 250px;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+}
+.authorFlexTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.authorFlex>p{
+    margin-top: 10px;
+}
+.auhtorTabel2{
+    margin-top: 100px;
+}
+.authorPoetryContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.footers{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    border-right: 1px solid gray;
+    padding-right: 30px;
+    padding-left: 14px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.footertitle{
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer>p{
+    margin-top: 5px;
+    font-size: 10px;
+    color: lightgray;
+}
